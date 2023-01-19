@@ -3,6 +3,7 @@
     "name": "kyma",
     "slug": "kyma",
     "version": "1.0.0",
+    "author":"GeoChivas99",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
