@@ -7,8 +7,10 @@ import {
   TouchableOpacity,
   TextInput,
 } from "react-native";
+import { styles } from "./Login.styles";
 import * as Animatable from "react-native-animatable";
 import { useNavigation } from "@react-navigation/native";
+
 
 export default function Login() {
   const navigation = useNavigation();
@@ -35,7 +37,7 @@ export default function Login() {
 
         <TouchableOpacity style={styles.buttonRegister}>
           <Text style={styles.registerText}>
-            Não possui uma conta? Cadastr-se
+            Não possui uma conta? Cadastre-se
           </Text>
         </TouchableOpacity>
       </Animatable.View>
@@ -43,35 +45,3 @@ export default function Login() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#38A69D",
-  },
-  containerHeader: {
-    marginTop: "14%",
-    marginBottom:"8%",
-    paddingStart: "5%"
-  },message:{
-   fontSize:28,
-   fontWeight:'bold',
-   color: '#fff'
-  },
-  containerForm: {
-    backgroundColor:"#fff", 
-    flex:1 ,
-    borderTopLeftRadius:25 ,
-    borderTopRightRadius: 25 ,
-    paddingStart: "5%", 
-    paddingEnd: "5%"
-  },
-  title: {
-    fontSize: 20, 
-    marginTop: 28
-  },
-  input: {},
-  buttonText: {},
-  button: {},
-  registerText: {},
-  buttonRegister: {},
-});
