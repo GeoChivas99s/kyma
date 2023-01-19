@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
   return (
       <View style={styles.container}> 
-        <Text>Te amo amo</Text>
+        <Text>Hello World!!</Text>
       </View>
   )
 }
@@ -13,7 +13,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'cyan',
     alignItems: 'center',
     justifyContent: 'center',
   },
